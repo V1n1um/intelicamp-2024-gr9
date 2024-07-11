@@ -1,0 +1,187 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: ;
+  color: #0886fb;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #C0C0C0;
+}
+p.fs-4 {
+  font-size: 1.25rem;
+  color: #000000;
+}
+.carousel-caption h5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.accordion-button {
+  background-color: #007BFF;
+  color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  color: #007BFF;
+  background-color: #E9ECEF;
+}
+.accordion-body {
+  color: #555;
+}
+footer {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+}
+footer a {
+  color: #fff;
+
+  margin: 0 10px;
+}
+
+#navbarcolapsed{
+  background-color: rgb(151, 17, 140);
+
+}
+#separe{
+  background-color: #000000;
+  height: 1px;
+margin-top: 200px;
+padding-left: 1000px;
+border-color: #000000;
+}
+#botao1{
+  margin-left: 900px;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  background-color: rgb(76, 162, 5);
+  border-color: rgb(76, 162, 5);
+  height: 30px;
+  width: 200px;
+  padding-top: 1px;
+  color: #f8f7f7;
+  font-family: roboto;
+
+}
+#botao2{
+  width: 400px;
+}
+
+#navbar{
+  background-color: #f4f0f0;
+  margin: 0;
+
+}
+#text4{
+  color: black;
+  padding-top: 50px;
+  width: 100px;
+}
+
+#text6{
+  color: black;
+  padding-top: 50px;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+#card1 .btn-primary{
+  color: #0b0c0e;
+  background-color: #0886fb;
+}
+
+#card1{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#logos{
+  margin-top: 30px;
+  width: 70px ;
+  margin-right: 50px;
+}
+
+#card2{
+  color: #000000;
+  margin-top: 300px  ;
+  margin-bottom: 200px;
+}
+#acord1{
+  margin-top: 100px;
+}
+
+
+#carrosel1{
+  width: 700px;
+
+
+
+}
+#titulo4{
+  
+
+}
+
+#lista1{
+  margin-top: 100px;
+  background-color: whitesmoke;
+  margin-bottom: 400px;
+}
+
+
+.welcome-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 1s ease-out, visibility 1s ease-out;
+}
+
+.welcome-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.welcome-text {
+  font-family: 'ubuntu-regular', cursive;
+  font-size: 4rem;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.welcome-text span:nth-child(1) {
+  color: #1A73E8;
+}
+
+.welcome-text span:nth-child(2) {
+  color: #EA4335;
+}
+
+.welcome-text span:nth-child(3) {
+  color: #FBBC05;
+}
+
+.welcome-text span:nth-child(4) {
+  color: #34A853;
+}
+
+#botao3{
+margin-top: 100px;
+}
+.card-tamanho{
+  width: 19rem!important;
+  height: 40rem!important;
+}
+
+#titulo4{
+  margin-bottom: 50px;
+}
