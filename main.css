@@ -1,3 +1,13 @@
+#abertura img {
+  display: block;
+  margin: 0 auto;
+}
+
+#abertura i {
+  color: #F4F4F9;
+  font-size: 60px;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: ;
@@ -30,7 +40,6 @@ p.fs-4 {
   color: #555;
 }
 footer {
-  background-color: #007BFF;
   color: #fff;
   padding: 20px;
 }
@@ -51,10 +60,8 @@ margin-top: 200px;
 padding-left: 1000px;
 border-color: #000000;
 }
+
 #botao1{
-  margin-left: 900px;
-  margin-top: 40px;
-  margin-bottom: 1px;
   background-color: rgb(76, 162, 5);
   border-color: rgb(76, 162, 5);
   height: 30px;
@@ -66,27 +73,31 @@ border-color: #000000;
 }
 #botao2{
   width: 400px;
-}
-
-#navbar{
-  background-color: #f4f0f0;
-  margin: 0;
 
 }
+
+.navbar {
+  background-color: #fff;
+  position: fixed; 
+  height: 60px;
+}
+
 #text4{
   color: black;
-  padding-top: 50px;
   width: 100px;
+  margin-bottom: 0;
 }
 
 #text6{
   color: black;
-  padding-top: 50px;
   width: 50px;
-  height: 50px;
-
+  margin-bottom: 0;
 }
 
+#logos{
+  width: 70px ;
+  margin-right: 50px;
+}
 
 #card1 .btn-primary{
   color: #0b0c0e;
@@ -96,12 +107,6 @@ border-color: #000000;
 #card1{
   margin-top: 150px;
   margin-bottom: 150px;
-}
-
-#logos{
-  margin-top: 30px;
-  width: 70px ;
-  margin-right: 50px;
 }
 
 #card2{
@@ -120,10 +125,7 @@ border-color: #000000;
 
 
 }
-#titulo4{
-  
 
-}
 
 #lista1{
   margin-top: 100px;
@@ -184,4 +186,18 @@ margin-top: 100px;
 
 #titulo4{
   margin-bottom: 50px;
+}
+
+#descricao {
+  padding-top: 60px;
+}
+
+#descricao h2 {
+  padding-bottom: 20px;
+}
+
+#descricao p {
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
