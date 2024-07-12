@@ -10,7 +10,6 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: ;
   color: #0886fb;
 }
 
@@ -56,9 +55,9 @@ footer a {
 #separe{
   background-color: #000000;
   height: 1px;
-margin-top: 200px;
-padding-left: 1000px;
-border-color: #000000;
+  margin-top: 200px;
+  padding-left: 1000px;
+  border-color: #000000;
 }
 
 #botao1{
@@ -71,10 +70,7 @@ border-color: #000000;
   font-family: roboto;
 
 }
-#botao2{
-  width: 400px;
 
-}
 
 .navbar {
   background-color: #fff;
@@ -85,52 +81,55 @@ border-color: #000000;
 #text4{
   color: black;
   width: 100px;
-  margin-bottom: 0;
+  
 }
 
 #text6{
   color: black;
   width: 50px;
-  margin-bottom: 0;
+  
 }
 
 #logos{
-  width: 70px ;
+  width: 80px ;
   margin-right: 50px;
 }
 
 #card1 .btn-primary{
-  color: #0b0c0e;
+  color: #ffffff;
   background-color: #0886fb;
+  
 }
 
 #card1{
-  margin-top: 150px;
-  margin-bottom: 150px;
+  padding-bottom: 70px;
+  padding-top: 150px;
 }
 
 #card2{
   color: #000000;
-  margin-top: 300px  ;
-  margin-bottom: 200px;
+  padding-top: 150px;
 }
+
+
+.card2-img{
+  height: 400px;
+}
+
 #acord1{
   margin-top: 100px;
 }
 
 
 #carrosel1{
-  width: 700px;
-
-
-
+  width: 1000px;
+  height: -100px;
 }
 
 
 #lista1{
-  margin-top: 100px;
   background-color: whitesmoke;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 
 
@@ -177,11 +176,15 @@ border-color: #000000;
 }
 
 #botao3{
-margin-top: 100px;
+  margin-top: 109px;
+}
+
+#botao0{
+  margin-top: 20px;
 }
 .card-tamanho{
   width: 19rem!important;
-  height: 40rem!important;
+  height: 35rem!important;
 }
 
 #titulo4{
@@ -201,3 +204,41 @@ margin-top: 100px;
   font-size: 20px;
   padding-bottom: 10px;
 }
+
+
+
+#imgroda{
+width: 50px;
+height: 50px;
+padding: 5px;
+}
+#imgroda1{
+width: 60px;
+height: 60px;
+  
+}
+#imgrodayoutube{
+width: 70px;
+height:60px ;
+
+}
+
+#linha{
+
+color: #000;
+
+}
+
+#textrodape{
+color: #000;
+
+}
+
+#imgrodape{
+  width: 500px;
+  height: 300px;
+  margin-top: 0;
+  padding-bottom: 100px;
+  
+}
+
