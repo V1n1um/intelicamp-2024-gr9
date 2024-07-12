@@ -48,10 +48,6 @@ footer a {
   margin: 0 10px;
 }
 
-#navbarcolapsed{
-  background-color: rgb(151, 17, 140);
-
-}
 #separe{
   background-color: #000000;
   height: 1px;
@@ -102,7 +98,7 @@ footer a {
 }
 
 #card1{
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   padding-top: 150px;
 }
 
